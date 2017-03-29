@@ -1,0 +1,7 @@
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript">
+	$.getJSON('http://ip-api.com/json?callback=?', function(data) {
+	  $('.result').append(JSON.stringify(data, null, 2));
+	});
+</script>
+<pre class="result"></pre>

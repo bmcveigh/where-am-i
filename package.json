@@ -1,0 +1,11 @@
+{
+  "name": "ip-demo",
+  "version": "1.0.0",
+  "description": "Demonstration of getting ip address information.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian McVeigh",
+  "license": "ISC"
+}
